@@ -1,0 +1,37 @@
+name: frontend 
+description: "A premium Wi-Fi security and speed testing tool."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # API & Secure Storage
+  http: ^1.1.0
+  flutter_secure_storage: ^9.0.0
+
+  # Features
+  wifi_scan: ^0.4.0
+  
+  flutter_internet_speed_test: ^1.5.0
+  syncfusion_flutter_gauges: ^26.1.35 
+  # Utilities
+
+  permission_handler: ^10.4.3
+  flutter_native_splash: ^2.3.1
+  
+flutter_native_splash:
+  color: "#121212" # A dark background for the splash screen
+  image: assets/logo.png
+  android: true
+  ios: true # Good practice to include, though app is Android-only
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+
