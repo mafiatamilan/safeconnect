@@ -13,12 +13,11 @@ dependencies:
   # API & Secure Storage
   http: ^1.1.0
   flutter_secure_storage: ^9.0.0
-
   # Features
   wifi_scan: ^0.4.0
-  
-  flutter_internet_speed_test: ^1.5.0
   syncfusion_flutter_gauges: ^26.1.35 
+  flutter_speed_test_plus: ^1.0.10 
+  dart_ping: ^8.0.1
   # Utilities
 
   permission_handler: ^10.4.3
