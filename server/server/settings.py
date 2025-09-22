@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-eks_e4t3v&dbp3_g$newu(2n%0@u4z5l+k^a9&yxe(c(*2p(ap
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'rest_framework.authtoken', # <-- ADD THIS LINE
     'api',   
 ]
 

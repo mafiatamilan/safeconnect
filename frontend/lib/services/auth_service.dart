@@ -6,7 +6,7 @@ import 'dart:io' show Platform;
 
 class AuthService {
   // Use 10.0.2.2 for the Android Emulator to connect to localhost
-  final String _baseUrl = "http://10.0.2.2:1337"; // CORRECT address for the Android emulator
+  final String _baseUrl = "http://192.168.1.7:1337"; // CORRECT address for the Android emulator
 
   final _storage = const FlutterSecureStorage();
 
